@@ -13,6 +13,7 @@ This project implements a **lexical analyzer** in **C** that tokenizes mathemati
 (12 + x * (y - 25) / z) % 15
 
 ### Example Output:
+```bash
 Token: (         Type: PARENTHESIS <br>
 Token: 12        Type: NUMBER <br>
 Token: +         Type: OPERATOR <br>
@@ -28,7 +29,7 @@ Token: z         Type: IDENTIFIER <br>
 Token: )         Type: PARENTHESIS <br>
 Token: %         Type: MODULO <br>
 Token: 15        Type: NUMBER <br>
-
+```
 
 ### How to Run:
 
@@ -40,6 +41,7 @@ Token: 15        Type: NUMBER <br>
      ```bash
      git clone https://github.com/Kulsum8099/lexical-analyzer.git
      ```
+   - Alternatively, you can **[click here to visit the repository on GitHub](https://github.com/Kulsum8099/lexical-analyzer)** to view it in your browser.
    - Or, you can **download** the ZIP file from GitHub and extract it to a folder.
 
 3. **Navigate to the project folder**:
