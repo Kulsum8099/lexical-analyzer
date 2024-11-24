@@ -14,21 +14,21 @@ This project implements a **lexical analyzer** in **C** that tokenizes mathemati
 
 ### Example Output:
 ```bash
-Token: (         Type: PARENTHESIS <br>
-Token: 12        Type: NUMBER <br>
-Token: +         Type: OPERATOR <br>
-Token: x         Type: IDENTIFIER <br>
-Token: *         Type: OPERATOR <br>
-Token: (         Type: PARENTHESIS <br>
-Token: y         Type: IDENTIFIER <br>
-Token: -         Type: OPERATOR <br>
-Token: 25        Type: NUMBER <br>
-Token: )         Type: PARENTHESIS <br>
-Token: /         Type: OPERATOR <br>
-Token: z         Type: IDENTIFIER <br>
-Token: )         Type: PARENTHESIS <br>
-Token: %         Type: MODULO <br>
-Token: 15        Type: NUMBER <br>
+Token: (         Type: PARENTHESIS
+Token: 12        Type: NUMBER
+Token: +         Type: OPERATOR
+Token: x         Type: IDENTIFIER
+Token: *         Type: OPERATOR
+Token: (         Type: PARENTHESIS
+Token: y         Type: IDENTIFIER
+Token: -         Type: OPERATOR
+Token: 25        Type: NUMBER
+Token: )         Type: PARENTHESIS
+Token: /         Type: OPERATOR
+Token: z         Type: IDENTIFIER
+Token: )         Type: PARENTHESIS
+Token: %         Type: MODULO
+Token: 15        Type: NUMBER
 ```
 
 ### How to Run:
@@ -67,7 +67,8 @@ Token: 15        Type: NUMBER <br>
      ```
 
 ### Project Structure:
+```bash
 - lexical_analyzer.c      # Source code file
 - lexical_analyzer.exe     # Compiled executable (generated after build)
 - README.md                # Project documentation
-
+```
